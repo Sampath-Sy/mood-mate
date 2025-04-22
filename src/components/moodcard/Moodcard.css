@@ -1,0 +1,28 @@
+.mood-card{
+    display: flex;
+   width: 300px;
+   height: 100px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ffffff, #ffe6f0);
+    padding: 10px;
+    
+}
+.mood-card__text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-left: 10px;
+    text-align: center;
+}
+.mood-card__date{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1a1a1a;
+    margin-left: 10px;
+    text-align: center;
+}
+.mood-card__emoji{
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
