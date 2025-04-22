@@ -3,11 +3,10 @@ import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import "./Moodmate.css";
 import jsPDF from 'jspdf';
-import { faSun } from "@fortawesome/free-solid-svg-icons";
-import { library } from "@fortawesome/fontawesome-svg-core";
+
 
 import MoodCard from "./moodcard/MoodCard";
-library.add(faSun);
+
 
 export default function Moodmate() {
   const [location, setLocation] = useState({ latitude: null, longitude: null });
